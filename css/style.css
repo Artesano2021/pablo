@@ -1,0 +1,619 @@
+header {
+  background-color: #4B2C20;
+  box-shadow: 15px 20px 10px rgb(83, 30, 30);
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.h3-card {
+  margin-left: 20px;
+  color: #ffffff;
+  font-family: "Fredericka the Great", cursiva;
+  text-decoration: none;
+}
+
+.logo-link {
+  text-decoration: none;
+  font-size: 60px;
+  font-family: "Rubik Microbe", cursiva;
+  color: #FFF9C4;
+}
+
+.icon-nav {
+  width: 60px;
+  height: 60px;
+  border-radius: 90%;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.bars {
+  display: none;
+}
+
+.lista-nav {
+  margin-left: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li a {
+  display: block;
+}
+
+.li-menu {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a :hover {
+  color: #000000;
+  background-color: #FFD0B0;
+}
+
+.nav-bar ul li a {
+  display: block;
+  color: white;
+  font-size: 18px;
+  padding: 10px 25px;
+  border-radius: 15px;
+  transition: 0.2s;
+  margin: 0 5px;
+  /*Arriba  y abajo*/
+}
+
+@media (max-width: 1758px) {
+  .lista-nav {
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1168px) {
+  .lista-nav {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 900px) {
+  .logo {
+    margin-left: 40px;
+  }
+  .bars {
+    margin-left: 20px;
+    display: block;
+    cursor: pointer;
+  }
+  .bars .line {
+    width: 30px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 6px 0px;
+  }
+  .nav-bar {
+    height: 0px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background-color: #A98274;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+  .nav-bar.active {
+    height: 450px;
+  }
+  .nav-bar ul {
+    display: block;
+    width: fit-content;
+    margin: 40px auto 0 auto;
+    text-align: center;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .nav-bar.active ul {
+    opacity: 1;
+  }
+  .nav-bar ul li a {
+    margin-bottom: 20px;
+  }
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+
+.card {
+  width: 674px;
+  height: 710px;
+  background-color: #795548;
+  width: 674px;
+  height: 710px;
+  background-color: #795548;
+  box-shadow: 15px 20px 10px rgb(83, 30, 30);
+  margin-top: 90px;
+}
+
+.card-muestra {
+  width: 674px;
+  height: 710px;
+  background-color: #795548;
+  width: 674px;
+  height: 710px;
+  background-color: #795548;
+  box-shadow: 15px 20px 10px rgb(83, 30, 30);
+  margin-bottom: 47px;
+}
+
+.card-header {
+  width: 674px;
+  height: 100px;
+  background-color: #795548;
+  display: flex;
+  flex-direction: row;
+}
+
+.h1-card {
+  color: #FFF9C4;
+  margin-left: 18px;
+  font-family: "Fredericka the Great", cursiva;
+}
+
+.h3-card {
+  margin-left: 20px;
+  color: #ffffff;
+  font-family: "Fredericka the Great", cursiva;
+  text-decoration: none;
+}
+
+.card-titulo {
+  line-height: 0.6;
+}
+
+.card-multimedia {
+  width: 674px;
+  height: 100px;
+  background-color: #795548;
+}
+
+.card-info {
+  width: 674px;
+  height: 100px;
+  background-color: #795548;
+  margin-top: 310px;
+  margin-bottom: 75px;
+  height: 20px;
+}
+
+.text-card {
+  font-family: "Magra", sans-serif;
+  color: #ffffff;
+  line-height: 20px;
+  font-size: 15px;
+  margin-left: 22px;
+}
+
+.card-botonera {
+  width: 674px;
+  height: 100px;
+  background-color: #795548;
+  align-items: center;
+}
+
+.img-multimedia {
+  width: 674px;
+  height: 400px;
+}
+
+.button-nav {
+  width: 638px;
+  height: 75px;
+  background-color: #FF9E80;
+  color: #C96F53;
+  margin-left: 18px;
+}
+
+.icon-card {
+  width: 60px;
+  height: 60px;
+  border-radius: 90%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+@media (max-width: 694px) {
+  .card {
+    width: 300px;
+    height: 540px;
+  }
+  .card-muestra {
+    width: 300px;
+    height: 540px;
+  }
+  .flex-container > div > div > img {
+    width: 300px;
+    height: 195px;
+  }
+  .flex-container > div > div > p {
+    margin-top: 160px;
+    line-height: 20px;
+    font-size: 15px;
+  }
+  .flex-container > div > div {
+    width: 300px;
+    height: 70px;
+  }
+  .button-nav {
+    width: 274px;
+    height: 75px;
+    margin-left: 14px;
+  }
+  .icon-card {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-top: 30%;
+    margin-left: 30%;
+  }
+  .text-card {
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  .botonera {
+    align-items: center;
+    height: 12px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+  }
+  .card-info {
+    margin-top: 0px;
+  }
+  h1 {
+    font-size: 27px;
+  }
+  h4 {
+    font-size: 12px;
+  }
+}
+.footer2 {
+  display: flex;
+  align-items: center;
+  background-color: #A98274;
+  justify-content: space-between;
+  margin-top: 100px;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #A98274;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+li {
+  list-style: none;
+}
+
+.ul-footer {
+  color: #ffffff;
+  font-family: "Fredericka the Great", cursiva;
+}
+
+@media (max-width: 733px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.basico {
+  border-radius: 100%;
+  color: rgb(216, 199, 50);
+  background-color: rgb(126, 45, 45);
+  width: 50px;
+  height: 50px;
+  box-shadow: 5px 5px rgb(75, 29, 3);
+}
+.basico:hover {
+  color: rgb(126, 45, 45);
+  background-color: rgb(216, 199, 50);
+}
+
+.button-muestra {
+  border-radius: 100%;
+  color: rgb(216, 199, 50);
+  background-color: rgb(126, 45, 45);
+  width: 50px;
+  height: 50px;
+  box-shadow: 5px 5px rgb(75, 29, 3);
+}
+.button-muestra:hover {
+  color: rgb(126, 45, 45);
+  background-color: rgb(216, 199, 50);
+}
+
+.small {
+  width: 12px;
+  height: 12px;
+  color: rgb(216, 199, 50);
+  background-color: rgb(126, 45, 45);
+}
+
+.normal {
+  width: 50px;
+  height: 50px;
+  color: rgb(216, 199, 50);
+  background-color: rgb(126, 45, 45);
+}
+
+.big {
+  width: 90px;
+  height: 90px;
+  color: rgb(216, 199, 50);
+  background-color: rgb(126, 45, 45);
+}
+
+@media (max-width: 397px) {
+  .button_fig {
+    width: 500px;
+  }
+}
+button {
+  background-color: #FF9E80;
+  margin-left: 25px;
+}
+button:hover {
+  background-color: #C96F53;
+  color: #FF9E80;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(17, 17, 17, 0.7411764706);
+  display: flex;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.6s 0.9s;
+  --transform: translateY(-100vh);
+  --transition: transform .8s;
+}
+
+.hero__cta {
+  text-decoration: none;
+  color: #C96F53;
+}
+.hero__cta:hover {
+  color: #FF9E80;
+}
+
+.modal--show {
+  opacity: 1;
+  pointer-events: unset;
+  transition: opacity 0.6s;
+  --transform: translateY(0);
+  --transition: transform .8s .8s;
+}
+
+.modal__container {
+  margin: auto;
+  width: 90%;
+  max-width: 600px;
+  max-height: 90%;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 3em 2.5em;
+  display: grid;
+  gap: 1em;
+  place-items: center;
+}
+
+.modal__title {
+  font-size: 2.5rem;
+  font-family: "Fredericka the Great", cursiva;
+}
+
+.modal__paragraph {
+  margin-bottom: 10px;
+  font-family: "Magra", sans-serif;
+}
+
+.modal__img {
+  width: 90%;
+  max-width: 300px;
+}
+
+.modal__close {
+  font-family: "Magra", sans-serif;
+  text-decoration: none;
+  background-color: #FF9E80;
+  color: #C96F53;
+  padding: 1em 3em;
+  border: 1px solid;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 300;
+  transition: background-color 0.3s;
+}
+
+.modal__close:hover {
+  color: #FF9E80;
+  background-color: #C96F53;
+}
+
+@media (max-width: 800px) {
+  .modal__container {
+    padding: 2em 1.5em;
+  }
+  .modal__title {
+    font-size: 2rem;
+  }
+}
+body {
+  background-color: #FFD0B0;
+  margin: 0;
+  padding: 0;
+}
+
+/*h1 {
+    font-family: 'Rubik Microbe', cursiva;
+    color: var.$text_primary;
+}*/
+/*h2{
+    font-family: 'Fredericka the Great', cursiva;
+    color: var.$text_card;
+}*/
+.h2-title {
+  margin-top: 70px;
+  margin-left: 15px;
+  font-family: "Fredericka the Great", cursiva;
+  color: #000000;
+  font-size: 38px;
+}
+
+.h3-title {
+  margin-left: 20px;
+  color: #795548;
+  font-family: "Fredericka the Great", cursiva;
+  font-size: 25px;
+}
+
+h4 {
+  margin-left: 20px;
+  color: #A98274;
+  font-family: "Fredericka the Great", cursiva;
+  font-size: 17px;
+}
+
+p {
+  font-family: "Magra", sans-serif;
+  margin-left: 55px;
+}
+
+.elemento {
+  display: flex;
+}
+
+.html-info {
+  display: flex;
+}
+
+.CSS-info {
+  display: flex;
+  background-color: #FF9E80;
+}
+
+.imple-info {
+  background-color: #FF9E80;
+  width: 458px;
+  margin-left: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.html-logo-div {
+  background-color: #df5200;
+  width: 478px;
+  height: 80px;
+}
+
+.css-logo-div {
+  background-color: #267ee2;
+  width: 478px;
+  height: 80px;
+}
+
+.js-logo-div {
+  background-color: #f8e90f;
+  width: 478px;
+  height: 80px;
+}
+
+.html-logo {
+  width: 90px;
+  height: 90px;
+}
+
+.css-logo {
+  width: 70px;
+  height: 90px;
+  margin-left: 7px;
+}
+
+.js-logo {
+  width: 90px;
+  height: 90px;
+}
+
+.implementacion {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 959px) {
+  .elemento {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 957px) {
+  .implementacion {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 497px) {
+  .imple-info {
+    background-color: #FF9E80;
+    width: 358px;
+    margin-left: 20px;
+    padding-top: 12px;
+  }
+  .html-logo-div {
+    width: 378px;
+    height: 80px;
+  }
+  .css-logo-div {
+    width: 378px;
+    height: 80px;
+  }
+  .js-logo-div {
+    width: 378px;
+    height: 80px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
